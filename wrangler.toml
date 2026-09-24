@@ -1,0 +1,11 @@
+#:schema node_modules/wrangler/config-schema.json
+
+name = "waline"
+main = "src/index.ts"
+compatibility_date = "2026-06-03"
+keep_vars = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "waline-db"
+database_id = "81c69a58-2e93-4129-88e2-880591c59e34"
